@@ -18,5 +18,6 @@
 ## 4. 个人小结
 该混合架构充分发挥了CNN与Mamba的互补优势，为医学影像增强提供了新思路。但模型在复杂病变图像上的泛化性仍需进一步验证，未来可引入轻量化设计降低部署门槛。
 
-<img width="1456" height="983" alt="image" src="https://github.com/user-attachments/assets/3a901d27-7081-4a0f-a86b-6311da9e2891" />
-
+![Hybrid CNN-Mamba 模型架构](https://p3-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/bf6a472825454dd7a32e78b71a992206.png)
+**图1 Hybrid CNN-Mamba 混合模型整体架构**
+（包含CNN特征提取层、Mamba序列建模层与多尺度融合模块，完全对应论文核心方法）
