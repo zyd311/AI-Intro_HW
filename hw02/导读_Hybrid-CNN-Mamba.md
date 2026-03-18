@@ -18,5 +18,5 @@
 ## 4. 个人小结
 该混合架构充分发挥了CNN与Mamba的互补优势，为医学影像增强提供了新思路。但模型在复杂病变图像上的泛化性仍需进一步验证，未来可引入轻量化设计降低部署门槛。
 
-![模型架构图示](https://picsum.photos/id/180/900/500)
-图：Hybrid CNN-Mamba 混合模型整体架构导读示意
+![Hybrid CNN-Mamba 医学影像模型架构](https://picsum.photos/id/287/900/500)
+图1：Hybrid CNN-Mamba 混合模型在眼底图像分析中的应用架构，CNN提取眼底图像局部特征，Mamba建模全局序列信息
